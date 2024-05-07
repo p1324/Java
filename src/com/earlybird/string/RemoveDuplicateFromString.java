@@ -9,7 +9,7 @@ public class RemoveDuplicateFromString {
 
 	public static void main(String[] args) {
 
-		String s = "jajajakakalalalamam";
+		String s = "jajajakakalalalamamn";
 		char[] c = s.toCharArray();
 		LinkedHashSet hs = new LinkedHashSet();
 		for (int i = 0; i < c.length; i++) {

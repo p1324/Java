@@ -21,12 +21,12 @@ public class RemoveDupUsingSet {
 		Iterator itr=hs.iterator();
 		while(itr.hasNext())
 		{
-			System.out.print(itr.next());
+			//System.out.print(itr.next());
 			//u=u+itr.next();
-			//sb.append(itr.next());
+			sb.append(itr.next());
 		}
 		//System.out.println(u);
-		//System.out.println(sb);
+		System.out.println(sb);
 	}
 
 }

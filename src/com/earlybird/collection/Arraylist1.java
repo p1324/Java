@@ -17,9 +17,10 @@ public class Arraylist1 {
 
 //System.out.println(l);---> [raj, dhruv, ak, Krish]
 
-		/*
-		 * for(String word:l) System.out.println(word);
-		 */
+		
+		  for(String word:l)
+			  System.out.println(word);
+		 
 
 		Iterator<String> itr = l.iterator();
 		while (itr.hasNext())
