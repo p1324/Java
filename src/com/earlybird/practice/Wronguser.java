@@ -11,9 +11,9 @@ public class Wronguser {
 		System.out.println("Enter Pass");
 		String pass=scan.nextLine();
 		
-		if(user=="Pradip") 
+		if(user.equals("Pradip")) 
 		{
-			if(pass=="1234")
+			if(pass.equals("1234"))
 			{
 				System.out.println("login successful");
 			}

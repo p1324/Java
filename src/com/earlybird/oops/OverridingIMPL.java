@@ -12,6 +12,11 @@ public class OverridingIMPL {
 		OverridingParent p1 = new OverridingChild();
 		p1.home();
 		
+		/*
+		 * OverridingChild c1 = new OverridingParent();
+		 *  c1.home();
+		 * child referrence can not hold parrent obj
+		 */
 
 	}
 

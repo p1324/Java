@@ -21,7 +21,7 @@ public class StringReverse {
 		  String rev = " "; 
 		  for (int i = s2.length() - 1; i >= 0;i--) 
 		  {
-			  rev = rev + s2.charAt(i); 
+			  rev = rev + s2.charAt(i); //avaj
 		  }
 		  System.out.println(rev);
 		 

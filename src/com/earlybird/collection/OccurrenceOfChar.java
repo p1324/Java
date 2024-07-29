@@ -5,8 +5,8 @@ import java.util.HashMap;
 public class OccurrenceOfChar {
 
 	public static void main(String[] args) {
-		String s="Ramkrushna";
-		char[] c=s.toCharArray();
+		String s="Ramkrushna"; // r =2 a=2 m=1
+		char[] c=s.toLowerCase().toCharArray();
 		
 		HashMap<Character,Integer> hm= new HashMap<Character, Integer>();
 		for(Character ch:c)

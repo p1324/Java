@@ -3,7 +3,7 @@ package com.earlybird.programpractice;
 public class MaxOfArrayUsingForLoop {
 	public static void main(String[] args) {
 		int a[] = { 6, 7, 1, 2, 3, 4, 9 };
-		System.out.println(a);
+		System.out.println(a); //[I@79fc0f2f
 
 		int maxOfArray = a[0];
 		int minOfArray = a[0];

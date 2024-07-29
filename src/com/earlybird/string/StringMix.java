@@ -11,7 +11,7 @@ public class StringMix {
 
 		String mix = "";
 
-		for (int i = 0; i < a1.length || i < b1.length; i++) {
+		for (int i = 0; i < a1.length  ; i++) {
 			
 			if (i < a1.length)
 				mix = mix + a1[i];

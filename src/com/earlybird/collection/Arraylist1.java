@@ -1,6 +1,7 @@
 package com.earlybird.collection;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 
@@ -15,12 +16,15 @@ public class Arraylist1 {
 		l.add("Krish");
 		l.add("raj");
 
-//System.out.println(l);---> [raj, dhruv, ak, Krish]
-
+		//System.out.println(l);// ---> [raj, dhruv, ak, Krish]
 		
-		  for(String word:l)
-			  System.out.println(word);
-		 
+		/*
+		 * HashSet hs = new HashSet(l); System.out.println(hs);
+		 */
+		
+		/*
+		 * for(String word:l) System.out.println(word);
+		 */
 
 		Iterator<String> itr = l.iterator();
 		while (itr.hasNext())

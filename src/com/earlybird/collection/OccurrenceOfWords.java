@@ -7,7 +7,7 @@ public class OccurrenceOfWords {
 
 	public static void main(String[] args) {
 		
-		String s= "This is parrot what is parrot";
+		String s= "This is parrot what is parrot eat mango eat mango mango";
 		String[] words=s.split(" ");
 		
 		HashMap<String,Integer> hm = new HashMap<String, Integer>();
@@ -15,11 +15,11 @@ public class OccurrenceOfWords {
 		{
 			if(hm.containsKey(word))
 			{
-				hm.put(word, hm.get(word)+1);
+				hm.put(word, hm.get(word)+1);//is 2
 			}
 			else
 			{
-				hm.put(word, 1);
+				hm.put(word, 1); //is=1
 			}
 		}
 		System.out.println(hm);

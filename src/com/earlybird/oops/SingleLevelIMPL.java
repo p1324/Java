@@ -7,11 +7,15 @@ public class SingleLevelIMPL {
 		SingleLevelChild c= new SingleLevelChild();
 		c.bike();
 		c.home();
+		 SingleLevelParent p1=  new SingleLevelParent();
+	      p1.home();
+	      
 		SingleLevelParent p=  new SingleLevelChild();
 	      p.home();
+	     
 	    //  SingleLevelChild c1= new SingleLevelParent();
-	     SingleLevelParent p1=new SingleLevelChild();
+	     
 	      
-	}
+	}  
 
 }

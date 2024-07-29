@@ -11,12 +11,13 @@ public class RemoveDuplicateFromString {
 
 		String s = "jajajakakalalalamamn";
 		char[] c = s.toCharArray();
-		LinkedHashSet hs = new LinkedHashSet();
+		LinkedHashSet<Character> hs = new LinkedHashSet<Character>();
 		for (int i = 0; i < c.length; i++) {
 			hs.add(c[i]);
 		}
-		System.out.println(hs);
-		Iterator itr=hs.iterator();
+		System.out.println(hs);	
+		
+		Iterator<Character> itr=hs.iterator();
 		while(itr.hasNext())
 		{
 			System.out.print(itr.next());

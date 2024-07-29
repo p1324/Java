@@ -3,12 +3,12 @@ package com.earlybird.oops;
 public class MultiIMPL {
 
 	public static void main(String[] args) {
-		MultiChild c = new MultiChild();
+		MultiLevelChild c = new MultiLevelChild();
 		c.bike();
 		c.home();
 		c.land();
 		
-		MultiParent p= new MultiChild();
+		MultiLevelParent p= new MultiLevelChild();
 		p.home();
 		//upcasting
 		//in inheritance it will call reference(p- parents method) method
