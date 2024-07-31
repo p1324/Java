@@ -24,6 +24,7 @@ public class AddAllUniqueNum {
 			}
 		}
 		System.out.println(sum);
+		System.out.println("code complete");
 	}
 
 }
